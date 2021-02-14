@@ -1,0 +1,424 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*css code start*/
+.navbar-light .navbar-nav .active>.nav-link {
+    margin: 0px 0px 0px 35px!important;
+}
+.header-bottom h1 {
+    font-size: 47px!important;
+    line-height: 58px!important;
+    margin: -33px 0px 37px 0px!important;
+}
+.header-bottom h3 {
+    margin: 0px 0px 45px 0px!important;
+    font-size: 15px!important;
+    line-height: 23px!important;
+}
+.header-section {
+    height: 680px!important;
+}
+.do-left {
+    margin: 0px 0px 0px 0px!important;
+}
+.do-left img {
+    width: 100%!important;
+}
+.do-right h1 {
+    font-size: 27px!important;
+}
+.do-right h3 {
+    font-size: 16px!important;
+    line-height: 24px!important;
+}
+.service-top h1{
+	font-size: 27px!important;
+}
+.service-top h3 {
+	font-size: 15px!important;
+    line-height: 23px!important;
+}
+.card {
+    margin: 0px 0px 31px 0px!important;
+}
+.choose-left h5 {
+    font-size: 16px!important;
+}
+.choose-left h2 {
+    margin: 0px 0px 22px 0px!important;
+    font-size: 35px!important;
+}
+.btn-6 {
+    margin: 5px 31px 13px 0px!important;
+}
+.btn-7 {
+    padding: 12px 36px!important;
+}
+.choose-right {
+    margin: 51px 0px -233px 0px!important;
+}
+.support-left {
+    margin: 170px 0px 0px 0px!important;
+}
+.support-left h2 {
+    font-size: 27px!important;
+}
+.support-left h5 {
+    font-size: 17px!important;
+}
+.support-right {
+    margin: 45px 0px 0px 0px!important;
+}
+.support-right img {
+    width: 100%!important;
+    margin: 0px 0px 0px 0px!important;
+}
+.blog-top h1 {
+    font-size: 27px!important;
+}
+.blog-top h5 {
+    font-size: 17px!important;
+    line-height: 23px!important;
+}
+.blog-left {
+    margin: 0px 0px 0px 0px!important;
+}
+.blog-right {
+    margin: 0px 0px 0px 0px!important;
+}
+.top-1 img {
+    width: 44%!important;
+    margin: 0px 0px 25px 0px!important;
+}
+.top-1 p {
+    font-size: 13px!important;
+}
+.top-2 h1 {
+    font-size: 32px!important;
+    margin-top: 20px!important;
+}
+.top-3 h1 {
+    font-size: 32px!important;
+    margin-top: 20px!important;
+}
+.top-4 h1 {
+    font-size: 32px!important;
+    margin-top: 20px!important;
+}
+.nav-link {
+    line-height: 11px!important;
+    font-size: 16px!important;
+}
+.top-3 p {
+    font-size: 16px!important;
+    margin: 0px 0px 8px 0px!important;
+}
+.top-4 p {
+    font-size: 16px!important;
+    margin: 0px 0px 29px 0px!important;
+}
+.top {
+    margin: -33px 11px 0px 0px!important;
+}
+   /*css code end*/
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*css code start*/
+.navbar-light .navbar-nav .active>.nav-link {
+    margin: 0px 0px 0px 35px!important;
+    font-size: 17px!important;
+}
+.navbar-light .navbar-nav .nav-link {
+	    margin: 0px 0px 0px 35px!important;
+    font-size: 17px!important;
+}
+
+.header-bottom h1 {
+    font-size: 61px!important;
+    line-height: 73px!important;
+    margin: -33px 0px 37px 0px!important;
+}
+.header-bottom h3 {
+    margin: 0px 0px 45px 0px!important;
+    font-size: 16px!important;
+    line-height: 23px!important;
+}
+.header-section {
+    height: 680px!important;
+}
+.do-left {
+    margin: 0px 0px 0px 0px!important;
+}
+.do-left img {
+    width: 100%!important;
+}
+.do-right h1 {
+    font-size: 30px!important;
+}
+.do-right h3 {
+    font-size: 16px!important;
+    line-height: 25px!important;
+}
+.service-top h1{
+	font-size: 30px!important;
+}
+.service-top h3 {
+    font-size: 17px!important;
+    line-height: 25px!important;
+}
+.card {
+    margin: 0px 0px 31px 0px!important;
+}
+.choose-left h5 {
+    font-size: 18px!important;
+}
+.choose-left h4 {
+    font-size: 17px!important;
+    line-height: 23px!important;
+
+}
+.choose-left h2 {
+    margin: 0px 0px 22px 0px!important;
+    font-size: 35px!important;
+}
+.btn-6 {
+    margin: 5px 14px 13px 0px!important;
+}
+.btn-7 {
+    padding: 12px 36px!important;
+}
+.choose-right {
+    margin: 51px 0px -233px 0px!important;
+}
+.support-left {
+    margin: 170px 0px 0px 0px!important;
+}
+.support-left h2 {
+    font-size: 30px!important;
+}
+.support-left h5 {
+    font-size: 18px!important;
+}
+.support-right {
+    margin: 45px 0px 0px 0px!important;
+}
+.support-right img {
+    width: 100%!important;
+    margin: 0px 0px 0px 0px!important;
+}
+.blog-top h1 {
+    font-size: 30px!important;
+}
+.blog-top h5 {
+    font-size: 18px!important;
+    line-height: 26px!important;
+}
+.blog-left {
+    margin: 0px 0px 0px 10px!important;
+}
+.blog-right {
+    margin: 0px 0px 0px 10px!important;
+}
+.top-1 img {
+    width: 47%!important;
+    margin: 0px 0px 25px 0px!important;
+}
+.top-1 p {
+    font-size: 18px!important;
+}
+.top-2 h1 {
+    font-size: 33px!important;
+    margin-top: 20px!important;
+}
+.top-3 h1 {
+    font-size: 33px!important;
+    margin-top: 20px!important;
+}
+.top-4 h1 {
+    font-size: 33px!important;
+    margin-top: 20px!important;
+}
+.nav-link {
+    line-height: 12px!important;
+    font-size: 17px!important;
+}
+.top-3 p {
+    font-size: 17px!important;
+    margin: 0px 0px 8px 0px!important;
+}
+.top-4 p {
+    font-size: 17px!important;
+    margin: 0px 0px 29px 0px!important;
+}
+.top {
+    margin: -68px 12px 0px 0px!important;
+}
+   /*css code end*/
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*css code start*/
+.navbar-light .navbar-nav .active>.nav-link {
+    margin: 0px 0px 0px 35px!important;
+    font-size: 17px!important;
+}
+.navbar-light .navbar-nav .nav-link {
+	    margin: 0px 0px 0px 35px!important;
+    font-size: 17px!important;
+}
+.header-bottom h1 {
+    font-size: 59px!important;
+    line-height: 84px!important;
+    margin: -33px 0px 37px 0px!important;
+}
+.header-bottom h3 {
+    margin: 0px 0px 45px 0px!important;
+    font-size: 16px!important;
+    line-height: 23px!important;
+}
+.header-section {
+    height: 752px!important;
+}
+.do-right {
+    margin: 54px 0px 0px 0px!important;
+}
+.do-left {
+    margin: 0px 0px 0px 0px!important;
+}
+.do-left img {
+    width: 100%!important;
+}
+.do-right h1 {
+    font-size: 30px!important;
+}
+.do-right h3 {
+    font-size: 16px!important;
+    line-height: 25px!important;
+}
+.service-top h1{
+	font-size: 30px!important;
+}
+.service-top h3 {
+    font-size: 16px!important;
+    line-height: 25px!important;
+}
+.card {
+    margin: 0px 0px 0px 0px!important;
+}
+.card-1 {
+    height: 408px!important;
+}
+.btn-4 {
+    margin: -54px auto!important;
+}
+.choose-left h5 {
+    font-size: 18px!important;
+}
+.choose-left h4 {
+    font-size: 17px!important;
+    line-height: 23px!important;
+
+}
+.form-inline .form-control {
+    padding: 4px 0px!important;
+    margin: 0px 0px 0px -8px!important;
+}
+.choose-left h2 {
+    margin: 0px 0px 22px 0px!important;
+    font-size: 35px!important;
+}
+.btn-5 {
+    padding: 4px 6px!important;
+    margin: 7px 0px 0px -100px!important;
+}
+.btn-6 {
+    margin: 5px 14px 13px 0px!important;
+}
+.btn-7 {
+    padding: 12px 36px!important;
+}
+.choose-right {
+    margin: 51px 0px -233px 0px!important;
+}
+.support-left {
+    margin: 170px 0px 0px 0px!important;
+}
+.support-left h2 {
+    font-size: 30px!important;
+}
+.support-left h5 {
+    font-size: 18px!important;
+}
+.support-right {
+    margin: 45px 0px 0px 0px!important;
+}
+.support-right img {
+    width: 100%!important;
+    margin: 0px 0px 0px 0px!important;
+}
+.blog-top h1 {
+    font-size: 30px!important;
+}
+.blog-top h5 {
+    font-size: 18px!important;
+    line-height: 26px!important;
+}
+.blog-left {
+    margin: 0px 0px 0px 10px!important;
+}
+.blog-right {
+    margin: 0px 0px 0px 10px!important;
+}
+.top-1 img {
+    width: 47%!important;
+    margin: 0px 0px 25px 0px!important;
+}
+.top-1 p {
+    font-size: 18px!important;
+}
+.top-2 h1 {
+    font-size: 33px!important;
+    margin-top: 20px!important;
+}
+.top-3 h1 {
+    font-size: 33px!important;
+    margin-top: 20px!important;
+}
+.top-4 h1 {
+    font-size: 33px!important;
+    margin-top: 20px!important;
+}
+.nav-link {
+    line-height: 12px!important;
+    font-size: 17px!important;
+}
+.top-3 p {
+    font-size: 17px!important;
+    margin: 0px 0px 8px 0px!important;
+}
+.top-4 p {
+    font-size: 17px!important;
+    margin: 0px 0px 29px 0px!important;
+}
+   /*css code end*/
+  
+}
+
+
+

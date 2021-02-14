@@ -1,0 +1,723 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+/**********************************************************
+	*** Global css code start ***
+**********************************************************/
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/**********************************************************
+	*** Global css code end ***
+**********************************************************/
+.header-section{
+	width: 100%;
+	background-image: url(../images/2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 639px;
+}
+.header-top{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #d3d6d7;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0px 34px 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #d3d6d7;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 34px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: red;
+}
+.header-bottom {
+    width: 100%;
+    margin: 143px 0px 0px 13px;
+}
+.header-bottom h1 {
+    color: #ffffff;
+    font-size: 41px;
+    font-weight: 600;
+    line-height:52px ;
+    margin: 0px 0px 37px 0px;
+}
+.header-bottom h3 {
+    color: #ffffff;
+    margin: 0px 0px 45px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.btn-1 {
+    color: #fafeff;
+    background: #16c2a3;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 38px;
+    border-radius: 40px;
+    border: 1px solid#16c2a3;
+    transition: 0.8s;
+}
+
+.btn-1:hover{
+	background: linear-gradient( to left, #41c398 30%, #dec56f);
+    -webkit-text-fill-color: #4b4b4d;
+    transition: 0.8s;
+}
+/**********************************************************
+	*** Header-section css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Do-section css code start ***
+**********************************************************/
+.do-section{
+	width: 100%;
+	margin:0px 0px 0px 0px;
+	padding: 80px 0px;
+}
+.do-left{
+	width: 100%;
+    margin: 0px 0px 0px -73px;
+}
+.do-left img{
+	width: 436px;
+}
+.do-right{
+	width: 100%;
+    margin: 72px 0px 0px 0px;
+}
+.do-right h1 {
+    color: #4b4b4d;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin:0px 0px 20px 0px;
+}
+.do-right h3 {
+    color: #575759;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0px 0px 43px 0px;
+}
+.btn-2 {
+    color: #fafeff;
+    background: #4b4b4d;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 38px;
+    border-radius: 40px;
+    border: 1px solid#4b4b4d;
+    transition: 0.8s;
+}
+
+.btn-2:hover{
+	background: linear-gradient( to left, #41c398 30%, #dec56f);
+    -webkit-text-fill-color: #4b4b4d;
+	transition: 0.8s;
+}
+/**********************************************************
+	*** Do-section css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Service-section css code start ***
+**********************************************************/
+.service-section{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+.service-top{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.service-top h1{
+	color: #4b4b4d;
+	font-size: 25px;
+    font-weight: 600;
+    margin:0px 0px 20px 0px;
+}
+.service-top h3{
+	color: #4b4b4d;
+	font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0px 0px 80px 0px;
+}
+.card-section{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-1 {
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    border: 2px solid#40c7a3;
+    height: 332px;
+}
+.card-1 img {
+    width: 123px;
+    margin: 35px auto 25px;
+}
+.card-1 h2 {
+    color: #4b4b4d;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card-1 p {
+    color: #4b4b4d;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.card{
+	width: 100%;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid#40c7a3;
+    height: 342px;
+}
+.card img {
+    width: 123px;
+    margin: 35px auto 25px;
+}
+.card h2 {
+    color: #4b4b4d;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card p {
+    color: #4b4b4d;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.bac {
+    width: 100%;
+    background: url(../images/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 338px;
+
+}
+.bac h1 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 80px 0px 15px 0px;
+    letter-spacing: 1px;
+}
+.bac h3 {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 26px 0px;
+}
+
+.btn-3 {
+    color: #c3e7d1;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 38px;
+    border-radius: 40px;
+    background: #4b4b4d;
+
+}
+.btn-3:hover{
+	background: linear-gradient( to left, #41c398 30%, #dec56f);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+}
+.btn-4 {
+    color: #c3e7d1;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 4px;
+    border-radius: 40px;
+    background: #4b4b4d;
+    width: 162px;
+    margin: 0px auto;
+}
+.btn-4:hover{
+	background: linear-gradient( to left, #41c398 30%, #dec56f);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+}
+.btn-5 {
+    background: #fff;
+    border: 1px solid#fff;
+    padding: 8px 12px;
+    margin: 7px 0px 0px -34px;
+    color: #4b4b4d;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 1px solid#fff;
+}
+.btn-5:hover{
+	background: linear-gradient( to left, #41c398 30%, #dec56f);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+    border: 0px;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    padding: 20px;
+    vertical-align: middle;
+    border-radius: 40px;
+    background: #fff;
+}
+/**********************************************************
+	*** Service-section css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Choose-section css code start ***
+**********************************************************/
+.choose-section{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.choose-left{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.choose-left h5{
+	margin: 0px 0px 17px 0px;
+	color: #868688;
+	font-size: 14px;
+	font-weight: 500;
+}
+.choose-left h2 {
+    margin: 0px 0px 19px 0px;
+    color: #4b4b4d;
+    font-size: 33px;
+    font-weight: 600;
+}
+.choose-left h4 {
+    margin: 0px 0px 22px 0px;
+    color: #575759;
+    font-size: 16px;
+    line-height: 23px;
+}
+.btn-6 {
+    background: #16c2a3;
+    border: 1px solid#16c2a3;
+    padding: 11px 28px;
+    margin: 0px 31px 0px 0px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.btn-6:hover{
+	background: linear-gradient( to left, #4b4b4d 30%, #16c2a3);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+}
+.btn-7{
+	background: #4b4b4d;
+    border: 1px solid#4b4b4d;
+    padding: 11px 29px;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 40px;
+    font-size: 14px;
+     letter-spacing: 1px;
+}
+.btn-7:hover{
+	background: linear-gradient( to left, #16c2a3 30%, #4b4b4d);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+}
+.choose-right {
+    width: 100%;
+    margin: 36px 0px 0px 80px;
+}
+.choose-1{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.choose-1 h4 {
+    color: #4b4b4d;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: -64px 0px 0px 123px;
+}
+.one{
+	width: 65px;
+	margin: 0px 0px 0px 0px;
+}
+.two{
+	margin: 0px 0px 0px 20px;
+    height: 67px;
+}
+.three {
+    width: 65px;
+    margin: 14px 0px -21px 0px;
+}
+.four {
+    margin: 25px 0px 0px 20px;
+    height: 67px;
+}
+.five{
+	width: 65px;
+	margin: 0px 0px 0px 0px;
+}
+.six{
+	margin: 0px 0px 0px 20px;
+    height: 67px;
+}
+.choose-2{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.choose-2 h4 {
+    color: #4b4b4d;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: -64px 0px 26px 123px;
+}
+
+.choose-3{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.choose-3 h4{
+	color: #4b4b4d;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: -64px 0px 0px 123px;
+}
+/**********************************************************
+	*** Choose-section css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Support-section css code start ***
+**********************************************************/
+.support-section{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.support-left {
+    width: 100%;
+    margin: 170px 0px 0px 55px;
+}
+.support-left h2{
+	color: #4b4b4d;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin:0px 0px 20px 0px;
+}
+.support-left h5 {
+    color: #575759;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0px 0px 40px 0px;
+}
+.btn-8{
+	background: #4b4b4d;
+    border: 1px solid#4b4b4d;
+    padding: 11px 29px;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.btn-8:hover{
+	background: linear-gradient( to left, #16c2a3 30%, #4b4b4d);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+}
+.support-right {
+    width: 100%;
+    margin: -30px 0px 0px 45px;
+}
+.support-right img {
+    width: 500px;
+    margin: 0px 0px 0px 0px;
+}
+/**********************************************************
+	*** Support-section css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Blog-section css code start ***
+**********************************************************/
+.blog-section{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.blog-top{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+.blog-top h1{
+	color: #282828;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin:0px 0px 20px 0px;
+}
+.blog-top h5 {
+    color: #525252;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0px 0px 78px 0px;
+}
+.blog-left {
+    width: 100%;
+    margin: 0px 0px 0px 220px;
+}
+.blog-left .card {
+    border: 1px solid#1d8983;
+    box-shadow: 8px 10px 15px#ccc;
+}
+.blog-left .card img {
+    width: 286px;
+    margin-top: 0px;
+}
+.blog-left .card h5 {
+    color: #ffff;
+    background: #16c2a3;
+    border: 1px solid#16c2a3;
+    font-size: 15px;
+    padding: 5px;
+    width: 50px;
+    margin: -237px 0px 160px 0px;
+    text-align: center;
+}
+.card-body{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-body h1 {
+    color: #44ceb5;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+.btn-10{
+	background: transparent;
+	border: 0px;
+	color: #484949;
+	font-weight: 600;
+
+}
+.btn-10:hover{
+	background: linear-gradient( to left, #16c2a3 30%, #4b4b4d);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+    padding: 10px;
+    border-radius: 40px;
+}
+.blog-right{
+	width: 100%;
+	margin: 0px 0px 0px -20px;
+}
+.blog-right .card {
+    box-shadow: 8px 10px 15px#ccc;
+    border: 0px;
+    height: 109px;
+    margin: 0px 0px 10px 0px;
+}
+.blog-right .card img {
+    margin: 0px 0px 0px 0px;
+    width: 100px;
+}
+.blog-right .card h5 {
+    color: #ffff;
+    background: #16c2a3;
+    border: 1px solid#16c2a3;
+    font-size: 12px;
+    padding: 5px;
+    width: 48px;
+    margin: -108px 0px -53px -1px;
+    text-align: center;
+}
+.blog-right .card h3{
+	color: #484949;
+}
+.blog-right .card-body h1 {
+    color: #4b4b4d;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: 7px 0px 20px 96px;
+}
+.btn-11 {
+    background: transparent;
+    border: 0px;
+    color: #484949;
+    font-weight: 600;
+    margin: 0px 0px 0px 97px;
+}
+.btn-11:hover{
+	background: linear-gradient( to left, #16c2a3 30%, #4b4b4d);
+    -webkit-text-fill-color: #fff;
+    transition: 0.8s;
+    padding: 10px;
+    border-radius: 40px;
+}
+/**********************************************************
+	*** Blog-section css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Footer-section css code start ***
+**********************************************************/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background: #f8f8f8;
+}
+.footer-top{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+
+}
+.top-1{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.top-1 img {
+    width: 121px;
+    margin: 0px 0px 25px 0px;
+}
+.top-1 p {
+    color: #838383;
+    font-size: 12px;
+    font-weight: 600;
+}
+.top-2{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.top-2 h1 {
+    color: #4b4b4d;
+    font-size: 29px;
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #4b4b4d;
+    line-height: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.top-3{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.top-3 h1{
+	color: #4b4b4d;
+    font-size: 29px;
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+.top-3 p {
+    color: #838383;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.top-4{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.top-4 h1{
+	color: #4b4b4d;
+    font-size: 29px;
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+.top-4 p {
+    color: #838383;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px 0px 18px 0px;
+}
+.top-bottom {
+    width: 100%;
+    background: #b4ebe1;
+    text-align: center;
+    padding: 29px 0px;
+}
+.top-bottom h3 {
+    color: #4b4b4d;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+}
+/**********************************************************
+	*** Footer-section css code end ***
+**********************************************************/
+
+/*back to top css start */
+.top {
+    margin: -95px 12px 0px 0px;
+    float: right;
+}
+.btn-14 {
+    color: #fff;
+    background-color: transparent!important;
+    border-color:transparent !important;
+}
+.btn-14.focus, .btn-14:focus {
+    color: #fff;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-14:hover {
+    color: #fff;
+    background-color:transparent !important;
+    border-color: transparent !important;
+}
+/*back to top css end */
